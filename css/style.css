@@ -1,0 +1,162 @@
+
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+:before, :after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus, :active {
+   outline: none;
+}
+
+a:focus, a:active {
+   outline: none;
+}
+
+nav, footer, header, aside {
+   display: block;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a, a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+   cursor: pointer;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-size: inherit;
+   font-weight: inherit;
+   
+}
+
+body {
+   background-color: black;
+}
+
+.container {
+   max-width: 1260px;
+   padding: 0 15px;
+   margin: 0 auto;
+   height: 100%;
+}
+
+.items-top {
+}
+.items-sort {
+   display: flex;
+   margin: 50px 0px 0px 0px;
+   justify-content: space-around;
+   max-width: 500px;
+}
+.text-all{
+   color: #ffffffff;
+}
+.text-yellow {
+   color: yellow;
+}
+.text-blue {
+   color: blue;
+}
+.text-green {
+   color: green;
+}
+.text-purple {
+   color: purple;
+}
+.text-orange {
+   color: orange;
+}
+.block-items {
+
+}
+.col-auto {
+}
+.box {
+   border-radius: 4px;
+   box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.75);
+   min-height: 140px;
+   min-width: 200px;
+   padding: 0px 15px;
+   margin: 15px;
+   border-width: 3px;
+   float: left;
+}
+.box.yellow {
+   border: 3px solid yellow;
+}
+.box.blue {
+   border: 3px solid blue;
+}
+.box.green {
+   border: 3px solid green;
+}
+.box.purple {
+   border: 3px solid purple;
+}
+.box.orange {
+   border: 3px solid orange;
+}
+
+.hiden{
+   opacity: 1s;
+   animation-name: Animation;
+   animation-duration: 6s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes Animation {
+   to{
+      opacity: 0;
+      min-height: 0;
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      border: 0;
+   }
+}
